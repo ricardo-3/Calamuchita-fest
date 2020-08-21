@@ -78,17 +78,19 @@ section{background: #fff7f1;
         
 }
 .contenedor{position: relative;
-            width: 360px;
+            width: 350px;
             height: 450px;
-            margin: 20px 15px;
+            margin: 20px 25px;
             display: flex;
-            align-items: center;           
+            align-items: center; 
+                      
            
 }
 
 .contenedor img{width: 360;
                 height: 450px;
                 max-width: 375;
+                border-radius: 15px;
 }
 
 .contenedor .dias h2{margin-bottom: 20px;
@@ -175,7 +177,7 @@ aside{background: #fff7f1;
 
 footer{background: #ffeed2; 
        width:100%;
-       height:230px;
+       height:300px;
        display: flex;
        align-items: center;
 }
@@ -190,7 +192,7 @@ footer{background: #ffeed2;
             flex-direction: column;
             align-items: center;
             width: 100%;
-            height: 200px;
+            height: 250px;
             background: #ffeed2;
             align-items: center;                
 }
@@ -205,7 +207,7 @@ footer{background: #ffeed2;
       border: 1px solid whit;
       border-radius: 10px; 
       font-size: 25px;
-      margin: 15px 0 7px 0 ; 
+      margin: 30px 0 7px 0 ; 
       color: white;          
 }
 
@@ -217,7 +219,7 @@ footer{background: #ffeed2;
 
  .formulario .social a{color: black;
                        background: #ffeed2;
-                       margin: 0 10px;
+                       margin: 15px 10px;
 }
          
 
