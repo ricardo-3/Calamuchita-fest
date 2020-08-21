@@ -67,7 +67,7 @@ main {margin: 0 ;
              margin: 0;   
 }
 
-section{background: #e7dfd5;
+section{background: #fff7f1;
         width: 100%;
         height: auto;
         display: flex;
@@ -123,7 +123,7 @@ hr{margin: 19px 0;
 }
 
 
-aside{background: #e7dfd5;
+aside{background: #fff7f1;
       width: 100%;
       height: 400px;
       max-height: 100%;
@@ -154,6 +154,8 @@ aside{background: #e7dfd5;
        max-width: 100%;
        height: 400px;
        max-height: 100%;
+       border: 1px solid black;
+       border-radius: 10px;
 }
 
 
@@ -161,58 +163,63 @@ aside{background: #e7dfd5;
            height: 500px;
            display: flex;
            flex-wrap: wrap;
+           color: black;
+           background: rgba(0, 0, 0, 0.8);
 }
 
 .gps{margin: 40px 50px;
      width: 1360px;
      max-width: 100%;
-     border: 1px solid black;
+     border: 3px solid black;
 }
 
-footer{background: #fff7f1; 
+footer{background: #ffeed2; 
        width:100%;
        height:230px;
        display: flex;
        align-items: center;
 }
 
+
+.formulario h4{font-size: 30px;
+               margin-bottom:10px ;
+}
+.formulario p{font-size: 18px;}
+
 .formulario{display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
             height: 200px;
-            background: #fff7f1;
+            background: #ffeed2;
             align-items: center;                
 }
 
 
-.formulario button{margin-top: 5px;
+.formulario a{
+      text-decoration: none;
+      text-align: center;
       background: black;
-      width: 340px;
+      width: 320px;
       height: 40px;
-      border: 1px solid white;
+      border: 1px solid whit;
       border-radius: 10px; 
-      font-size: 21px;
-      margin: 20px 0; 
+      font-size: 25px;
+      margin: 15px 0 7px 0 ; 
       color: white;          
 }
 
-.formulario button:hover {background:black;
-             color:white; 
-             font-size: 27px;
+.formulario a:hover {background:black;
+             color:yellow; 
+             font-size: 23px;
              transition: .5s;
  }
 
- 
-
- .formulario a{color:black;
-              transition: .5s;
-              background:white ;
-              font-size: 25px;
-              margin: 5px 10px ;
-            }
-
-
+ .formulario .social a{color: black;
+                       background: #ffeed2;
+                       margin: 0 10px;
+}
+         
 
 
 
