@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calamuchita fest</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="estilos/login.css">
 </head>
 <body>
@@ -12,13 +13,50 @@
         <h1>Iniciar sesión</h1>
         <form>
             <label for="email">Correo Electronico</label> 
-            <input type="text" placeholder="Ingrese Correo">
+            <input id="email" type="text" placeholder="Ingrese Correo">
             <label for="password">Contraseña</label> 
-            <input type="password" placeholder="Ingrese Contraseña">
-            <input  type="submit" value="INGRESAR">
+            <input id="password" type="password" placeholder="Ingrese Contraseña">
+            <input  onclick="registrar()" type="submit" value="INGRESAR">
             <a href="recuperar.html">Olvide mi contraseña</a>
             <a href="cuenta.html">Crear cuenta</a>
         </form>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD4EmlE6yxjfLk48xssVnZ_z7_nyIvNkig",
+    authDomain: "login3-e122f.firebaseapp.com",
+    databaseURL: "https://login3-e122f.firebaseio.com",
+    projectId: "login3-e122f",
+    storageBucket: "login3-e122f.appspot.com",
+    messagingSenderId: "782504866678",
+    appId: "1:782504866678:web:77512f040da45ac0944057",
+    measurementId: "G-FW5F3YT9HS"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+    <script src="app.js"></script>
 </body>
 </html>
