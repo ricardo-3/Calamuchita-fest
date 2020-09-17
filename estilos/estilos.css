@@ -443,7 +443,7 @@ aside{background: #fff7f1;
 
 
 
-.publicidad{width: 550px;
+.publicidad{width: 400px;
        display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -453,14 +453,14 @@ aside{background: #fff7f1;
 }
 
 
-.informacion{width: 450px;
+.informacion{width: 400px;
        display: flex;
        flex-wrap: wrap;
        background: #ffeed2;
         
 }
 
-.video{width: 450px;
+.video{width: 300px;
        height: 250px;
        border: 1px solid black;
        border-radius: 10px;
