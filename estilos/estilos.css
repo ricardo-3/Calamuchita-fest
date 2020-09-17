@@ -433,7 +433,7 @@ hr{margin: 7px 0;
 
 
 aside{background: #fff7f1;
-      width: 400px;
+      width: 550px;
       height: 500px;
       margin-left: 33px;
       display: flex;
@@ -443,7 +443,7 @@ aside{background: #fff7f1;
 
 
 
-.publicidad{width: 350px;
+.publicidad{width: 550px;
        display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
@@ -453,15 +453,15 @@ aside{background: #fff7f1;
 }
 
 
-.informacion{width: 350px;
+.informacion{width: 450px;
        display: flex;
        flex-wrap: wrap;
        background: #ffeed2;
         
 }
 
-.video{width: 250px;
-       height: 200px;
+.video{width: 450px;
+       height: 250px;
        border: 1px solid black;
        border-radius: 10px;
 }
